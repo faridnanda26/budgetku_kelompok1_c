@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "297726568799",
+    "project_id": "budgetkuapp",
+    "storage_bucket": "budgetkuapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297726568799:android:83980fb8477f593f72eeea",
+        "android_client_info": {
+          "package_name": "com.budgetku.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtgx-TUXhSzkNKmGm0OzumPe7uK5a0rq0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

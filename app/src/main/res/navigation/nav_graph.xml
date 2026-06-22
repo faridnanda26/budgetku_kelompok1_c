@@ -1,0 +1,13 @@
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/loginFragment">
+
+    <fragment android:id="@+id/loginFragment" android:name="com.budgetku.app.ui.auth.LoginFragment" android:label="Login" />
+    <fragment android:id="@+id/registerFragment" android:name="com.budgetku.app.ui.auth.RegisterFragment" android:label="Register" />
+    <fragment android:id="@+id/dashboardFragment" android:name="com.budgetku.app.ui.dashboard.DashboardFragment" android:label="Dashboard" />
+    <fragment android:id="@+id/addTransactionFragment" android:name="com.budgetku.app.ui.transaction.AddTransactionFragment" android:label="Tambah Transaksi" />
+    <fragment android:id="@+id/transactionHistoryFragment" android:name="com.budgetku.app.ui.transaction.TransactionHistoryFragment" android:label="Riwayat" />
+    <fragment android:id="@+id/budgetFragment" android:name="com.budgetku.app.ui.budget.BudgetFragment" android:label="Anggaran" />
+    <fragment android:id="@+id/statisticsFragment" android:name="com.budgetku.app.ui.statistics.StatisticsFragment" android:label="Statistik" />
+</navigation>

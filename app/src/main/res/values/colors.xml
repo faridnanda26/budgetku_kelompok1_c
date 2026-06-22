@@ -1,0 +1,13 @@
+<resources>
+    <color name="primary">#1A1A2E</color>
+    <color name="primary_variant">#16213E</color>
+    <color name="accent">#0F3460</color>
+    <color name="highlight">#E94560</color>
+    <color name="income_green">#27AE60</color>
+    <color name="expense_red">#E74C3C</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="surface_variant">#F8F9FA</color>
+    <color name="on_surface">#2C3E50</color>
+    <color name="text_secondary">#7F8C8D</color>
+    <color name="divider">#ECEFF1</color>
+</resources>
