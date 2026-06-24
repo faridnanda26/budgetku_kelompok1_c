@@ -3,8 +3,8 @@ package com.budgetku.app
 import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
+import androidx.navigation.NavOptions
 import androidx.navigation.fragment.NavHostFragment
-import androidx.navigation.ui.setupWithNavController // 🟢 Pastikan baris import ini ada
 import com.budgetku.app.databinding.ActivityMainBinding
 import com.google.firebase.auth.FirebaseAuth
 
@@ -20,9 +20,40 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navController = navHostFragment.navController
 
-        // 🟢 SOLUSI UTAMA: Hubungkan secara resmi. Karena ID XML kamu sudah sama,
-        // fungsi ini akan mengatur perpindahan ikon & klik balik secara otomatis.
-        binding.bottomNavigation.setupWithNavController(navController)
+        // 🟢 SOLUSI UTAMA: Tidak memakai setupWithNavController bawaan karena fungsi itu
+        // melakukan popUpTo ke startDestination graph (loginFragment), bukan ke
+        // dashboardFragment. Sebagai gantinya, navigasi diatur manual di sini supaya
+        // kelima tab (Dashboard, Riwayat, Tambah, Budget, Statistik) saling menggantikan
+        // satu sama lain di back stack dengan benar, dan tetap satu thread yang sama
+        // dengan navigasi tombol manual di Dashboard (ID destination-nya identik).
+        val bottomNavDestinations = setOf(
+            R.id.dashboardFragment,
+            R.id.transactionHistoryFragment,
+            R.id.addTransactionFragment,
+            R.id.budgetFragment,
+            R.id.statisticsFragment
+        )
+
+        binding.bottomNavigation.setOnItemSelectedListener { item ->
+            if (item.itemId == navController.currentDestination?.id) {
+                true
+            } else {
+                val navOptions = NavOptions.Builder()
+                    .setLaunchSingleTop(true)
+                    .setPopUpTo(R.id.dashboardFragment, false)
+                    .build()
+                navController.navigate(item.itemId, null, navOptions)
+                true
+            }
+        }
+
+        // Sorot item navbar yang sesuai saat destination berubah dari jalur manapun
+        // (klik navbar ATAU klik tombol/teks di Dashboard), supaya navbar selalu sinkron.
+        navController.addOnDestinationChangedListener { _, destination, _ ->
+            if (destination.id in bottomNavDestinations) {
+                binding.bottomNavigation.menu.findItem(destination.id)?.isChecked = true
+            }
+        }
 
         // Deteksi kemunculan keyboard melalui tinggi layar global
         binding.root.viewTreeObserver.addOnGlobalLayoutListener {

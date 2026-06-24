@@ -53,9 +53,8 @@ class DashboardFragment : Fragment() {
     private fun setupClicks() {
         // 🟢 PERBAIKAN UTAMA: Hancurkan tumpukan di atas dashboard secara inklusif agar state tidak terkunci
         val navOptions = NavOptions.Builder()
-            .setPopUpTo(R.id.dashboardFragment, true) // Diubah jadi TRUE untuk membersihkan tumpukan lama
-            .setLaunchSingleTop(true) // Hindari duplikasi fragment di atas tumpukan
-            // ❌ Hapus setRestoreState(true) dari sini karena ini yang bikin balik ke halaman tambah terus
+            .setPopUpTo(R.id.dashboardFragment, false) // ← ini saja yang diubah, true → false
+            .setLaunchSingleTop(true)
             .build()
 
         // Klik Pemasukan
