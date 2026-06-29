@@ -14,13 +14,16 @@ import com.budgetku.app.databinding.ItemTransactionBinding
 import com.budgetku.app.util.CurrencyFormatter
 import com.budgetku.app.util.DateUtils
 
-class TransactionAdapter(private val onDelete: (TransactionEntity) -> Unit) :
-    ListAdapter<TransactionEntity, TransactionAdapter.ViewHolder>(DiffCallback()) {
+class TransactionAdapter(
+    private val onClick: (TransactionEntity) -> Unit,
+    private val onLongClick: (TransactionEntity) -> Unit
+) : ListAdapter<TransactionEntity, TransactionAdapter.ViewHolder>(DiffCallback()) {
 
     inner class ViewHolder(private val binding: ItemTransactionBinding) : RecyclerView.ViewHolder(binding.root) {
         fun bind(item: TransactionEntity) {
             val category = Category.fromName(item.category)
             val isIncome = item.type == "INCOME"
+
             binding.tvDescription.text = item.description.ifEmpty { category.label }
             binding.tvDate.text = DateUtils.formatDateShort(item.date)
             binding.tvCategory.text = category.label
@@ -28,6 +31,13 @@ class TransactionAdapter(private val onDelete: (TransactionEntity) -> Unit) :
             binding.cardCategory.setCardBackgroundColor(Color.parseColor(category.colorHex))
             binding.tvAmount.text = "${if (isIncome) "+" else "-"} ${CurrencyFormatter.format(item.amount)}"
             binding.tvAmount.setTextColor(ContextCompat.getColor(binding.root.context, if (isIncome) R.color.income_green else R.color.expense_red))
+
+            binding.root.setOnClickListener { onClick(item) }
+
+            binding.root.setOnLongClickListener {
+                onLongClick(item)
+                true
+            }
         }
     }
 

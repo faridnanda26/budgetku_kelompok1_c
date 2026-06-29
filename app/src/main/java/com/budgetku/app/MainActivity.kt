@@ -20,12 +20,6 @@ class MainActivity : AppCompatActivity() {
         val navHostFragment = supportFragmentManager.findFragmentById(R.id.nav_host_fragment) as NavHostFragment
         val navController = navHostFragment.navController
 
-        // 🟢 SOLUSI UTAMA: Tidak memakai setupWithNavController bawaan karena fungsi itu
-        // melakukan popUpTo ke startDestination graph (loginFragment), bukan ke
-        // dashboardFragment. Sebagai gantinya, navigasi diatur manual di sini supaya
-        // kelima tab (Dashboard, Riwayat, Tambah, Budget, Statistik) saling menggantikan
-        // satu sama lain di back stack dengan benar, dan tetap satu thread yang sama
-        // dengan navigasi tombol manual di Dashboard (ID destination-nya identik).
         val bottomNavDestinations = setOf(
             R.id.dashboardFragment,
             R.id.transactionHistoryFragment,
@@ -47,15 +41,12 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Sorot item navbar yang sesuai saat destination berubah dari jalur manapun
-        // (klik navbar ATAU klik tombol/teks di Dashboard), supaya navbar selalu sinkron.
         navController.addOnDestinationChangedListener { _, destination, _ ->
             if (destination.id in bottomNavDestinations) {
                 binding.bottomNavigation.menu.findItem(destination.id)?.isChecked = true
             }
         }
 
-        // Deteksi kemunculan keyboard melalui tinggi layar global
         binding.root.viewTreeObserver.addOnGlobalLayoutListener {
             val r = android.graphics.Rect()
             binding.root.getWindowVisibleDisplayFrame(r)
@@ -77,7 +68,6 @@ class MainActivity : AppCompatActivity() {
             }
         }
 
-        // Kontrol otomatis visibilitas halaman auth
         navController.addOnDestinationChangedListener { _, destination, _ ->
             if (!isKeyboardVisible) {
                 binding.bottomNavigation.visibility = if (destination.id == R.id.loginFragment || destination.id == R.id.registerFragment) View.GONE else View.VISIBLE

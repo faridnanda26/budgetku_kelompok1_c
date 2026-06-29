@@ -1,50 +1,54 @@
 [
     {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/dialog_add_budget.xml",
-        "source": "com.budgetku.app-main-61:/layout/dialog_add_budget.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\item_category.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\activity_main.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\fragment_add_transaction.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_add_transaction.xml"
     },
     {
         "merged": "com.budgetku.app-mergeDebugResources-58:/layout/fragment_dashboard.xml",
         "source": "com.budgetku.app-main-61:/layout/fragment_dashboard.xml"
     },
     {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/fragment_statistics.xml",
-        "source": "com.budgetku.app-main-61:/layout/fragment_statistics.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\fragment_register.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_register.xml"
     },
     {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/item_transaction.xml",
-        "source": "com.budgetku.app-main-61:/layout/item_transaction.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_dashboard.xml"
     },
     {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/fragment_transaction_history.xml",
-        "source": "com.budgetku.app-main-61:/layout/fragment_transaction_history.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\item_budget.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\item_budget.xml"
     },
     {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/fragment_budget.xml",
-        "source": "com.budgetku.app-main-61:/layout/fragment_budget.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\fragment_statistics.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_statistics.xml"
     },
     {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/item_category.xml",
-        "source": "com.budgetku.app-main-61:/layout/item_category.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\fragment_budget.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_budget.xml"
     },
     {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/item_budget.xml",
-        "source": "com.budgetku.app-main-61:/layout/item_budget.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\item_transaction.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\item_transaction.xml"
     },
     {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/activity_main.xml",
-        "source": "com.budgetku.app-main-61:/layout/activity_main.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\dialog_add_budget.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\dialog_add_budget.xml"
     },
     {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/fragment_add_transaction.xml",
-        "source": "com.budgetku.app-main-61:/layout/fragment_add_transaction.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\fragment_login.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_login.xml"
     },
     {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/fragment_login.xml",
-        "source": "com.budgetku.app-main-61:/layout/fragment_login.xml"
-    },
-    {
-        "merged": "com.budgetku.app-mergeDebugResources-58:/layout/fragment_register.xml",
-        "source": "com.budgetku.app-main-61:/layout/fragment_register.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-mergeDebugResources-58:\\layout\\fragment_transaction_history.xml",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_transaction_history.xml"
     }
 ]

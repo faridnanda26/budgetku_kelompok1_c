@@ -57,6 +57,29 @@ class TransactionViewModel(
         }
     }
 
+    fun updateTransaction(id: String, amount: Double, type: String, category: String, description: String, date: Long) {
+        viewModelScope.launch {
+            _uiState.value = Resource.Loading
+            try {
+                repository.addTransaction(
+                    TransactionEntity(
+                        id = id,
+                        userId = userId,
+                        amount = amount,
+                        type = type,
+                        category = category,
+                        description = description,
+                        date = date
+                    )
+                )
+                loadMonthlySummary()
+                _uiState.value = Resource.Success(Unit)
+            } catch (e: Exception) {
+                _uiState.value = Resource.Error(e.message ?: "Gagal memperbarui transaksi")
+            }
+        }
+    }
+
     fun setFilter(type: String? = null, category: String? = null) {
         filterType.value = type
         filterCategory.value = category

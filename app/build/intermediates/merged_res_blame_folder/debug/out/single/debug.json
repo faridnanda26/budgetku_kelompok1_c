@@ -1,190 +1,194 @@
 [
     {
-        "merged": "com.budgetku.app-merged_res-59:/layout_activity_main.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/activity_main.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_transport.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_transport.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/layout_item_category.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/item_category.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_fragment_transaction_history.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_transaction_history.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_history.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_history.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_dialog_add_budget.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\dialog_add_budget.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/anim_fade_out.xml.flat",
-        "source": "com.budgetku.app-main-61:/anim/fade_out.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_fragment_statistics.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_statistics.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/layout_fragment_budget.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/fragment_budget.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_bg_card_transparent.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\bg_card_transparent.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_dashboard.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_dashboard.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_fragment_add_transaction.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_add_transaction.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_other.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_other.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_chevron_left.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_chevron_left.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_bg_auth_gradient.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/bg_auth_gradient.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_shopping.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_shopping.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_search.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_search.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_search.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_search.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_bg_card_transparent.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/bg_card_transparent.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_history.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_history.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_statistics.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_statistics.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_wallet.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_wallet.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_chevron_right.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_chevron_right.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/anim_slide_in_up.xml.flat",
-        "source": "com.budgetku.app-main-61:/anim/slide_in_up.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_statistics.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_statistics.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_budget.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_budget.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\anim_fade_out.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\anim\\fade_out.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_add.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_add.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_dashboard.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_dashboard.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_lock.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_lock.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_logout.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_logout.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_wallet.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_wallet.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_item_budget.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\item_budget.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_logout.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_logout.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\anim_slide_in_up.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\anim\\slide_in_up.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/anim_slide_out_down.xml.flat",
-        "source": "com.budgetku.app-main-61:/anim/slide_out_down.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\anim_fade_in.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\anim\\fade_in.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/anim_fade_in.xml.flat",
-        "source": "com.budgetku.app-main-61:/anim/fade_in.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_bg_auth_gradient.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\bg_auth_gradient.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/menu_bottom_nav_menu.xml.flat",
-        "source": "com.budgetku.app-main-61:/menu/bottom_nav_menu.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_bg_bottom_nav_solid.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\bg_bottom_nav_solid.xml"
     },
     {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_warning.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_warning.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_chevron_left.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_chevron_left.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_person.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_person.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/layout_item_budget.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/item_budget.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_entertainment.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_entertainment.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/layout_fragment_add_transaction.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/fragment_add_transaction.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/layout_item_transaction.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/item_transaction.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_transport.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_transport.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/layout_dialog_add_budget.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/dialog_add_budget.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_shopping.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_shopping.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.budgetku.app-main-61:/mipmap-anydpi-v26/ic_launcher_round.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/navigation_nav_graph.xml.flat",
-        "source": "com.budgetku.app-main-61:/navigation/nav_graph.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/layout_fragment_transaction_history.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/fragment_transaction_history.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_health.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_health.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_food.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_food.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_salary.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_salary.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_back.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_back.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_investment.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_investment.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.budgetku.app-main-61:/mipmap-anydpi-v26/ic_launcher.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/layout_fragment_login.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/fragment_login.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_freelance.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_freelance.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/layout_fragment_statistics.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/fragment_statistics.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_ic_education.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/ic_education.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/layout_fragment_register.xml.flat",
-        "source": "com.budgetku.app-main-61:/layout/fragment_register.xml"
-    },
-    {
-        "merged": "com.budgetku.app-merged_res-59:/drawable_bg_bottom_nav_solid.xml.flat",
-        "source": "com.budgetku.app-main-61:/drawable/bg_bottom_nav_solid.xml"
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_investment.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_investment.xml"
     },
     {
         "merged": "com.budgetku.app-merged_res-59:/layout_fragment_dashboard.xml.flat",
         "source": "com.budgetku.app-main-61:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_fragment_login.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\menu_bottom_nav_menu.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\menu\\bottom_nav_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_health.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_health.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_entertainment.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_entertainment.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_activity_main.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_education.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_education.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_lock.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_lock.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_item_category.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\item_category.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_budget.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_freelance.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_freelance.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_fragment_dashboard.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_fragment_register.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_register.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_item_transaction.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\item_transaction.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_other.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_other.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_food.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_food.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_person.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_person.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_add.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_add.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\navigation_nav_graph.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\navigation\\nav_graph.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_warning.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_warning.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\layout_fragment_budget.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\layout\\fragment_budget.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_chevron_right.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_chevron_right.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\anim_slide_out_down.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\anim\\slide_out_down.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_salary.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_salary.xml"
+    },
+    {
+        "merged": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-merged_res-59:\\drawable_ic_back.xml.flat",
+        "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\daemon\\8.2\\com.budgetku.app-main-61:\\drawable\\ic_back.xml"
     }
 ]

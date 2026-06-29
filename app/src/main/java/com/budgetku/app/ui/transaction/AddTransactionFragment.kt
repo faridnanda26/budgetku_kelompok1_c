@@ -28,10 +28,14 @@ class AddTransactionFragment : Fragment() {
     private val authViewModel: AuthViewModel by activityViewModels()
     private lateinit var viewModel: TransactionViewModel
     private lateinit var categoryAdapter: CategoryAdapter
+
     private var selectedType = "EXPENSE"
     private var selectedCategory = Category.MAKANAN
     private var selectedDate = System.currentTimeMillis()
     private var formatting = false
+
+    private var transactionId: String? = null
+    private var isEditMode = false
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View {
         _binding = FragmentAddTransactionBinding.inflate(inflater, container, false)
@@ -41,14 +45,19 @@ class AddTransactionFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        // 🔑 1. Ambil inisialisasi dasar rujukan ID User & Repository yang dibutuhkan oleh fragment
         val userId = authViewModel.currentUserId() ?: run { findNavController().navigate(R.id.loginFragment); return }
         val app = requireActivity().application as BudgetKuApplication
         viewModel = ViewModelProvider(this, TransactionViewModelFactory(app.container.transactionRepository, userId))[TransactionViewModel::class.java]
 
-        // 2. Jalankan fungsi setup view & observe data
+        transactionId = arguments?.getString("TRANSACTION_ID")
+        isEditMode = transactionId != null
+
         setup()
         observe()
+
+        if (isEditMode) {
+            preFillData()
+        }
     }
 
     private fun setup() {
@@ -58,24 +67,22 @@ class AddTransactionFragment : Fragment() {
 
         binding.tvDate.text = DateUtils.formatDate(selectedDate)
 
-        // 🟢 PERBAIKAN UTAMA: Ambil tanda kiriman dari DashboardFragment
         val isIncome = arguments?.getBoolean("IS_INCOME", false) ?: false
 
         if (isIncome) {
             selectedType = "INCOME"
-            binding.toggleType.check(R.id.btnIncome) // Aktifkan tombol Pemasukan
+            binding.toggleType.check(R.id.btnIncome)
             val list = Category.incomeCategories()
             selectedCategory = list.first()
             categoryAdapter.submitList(list)
         } else {
             selectedType = "EXPENSE"
-            binding.toggleType.check(R.id.btnExpense) // Aktifkan tombol Pengeluaran
+            binding.toggleType.check(R.id.btnExpense)
             val list = Category.expenseCategories()
             selectedCategory = list.first()
             categoryAdapter.submitList(list)
         }
 
-        // Listener pendeteksi saat pengguna mengubah pilihan jenis transaksi secara manual
         binding.toggleType.addOnButtonCheckedListener { _, checkedId, checked ->
             if (!checked) return@addOnButtonCheckedListener
             selectedType = if (checkedId == R.id.btnIncome) "INCOME" else "EXPENSE"
@@ -107,6 +114,43 @@ class AddTransactionFragment : Fragment() {
         binding.toolbar.setNavigationOnClickListener { findNavController().popBackStack() }
     }
 
+    private fun preFillData() {
+        binding.toolbar.title = "Edit Transaksi"
+
+        viewModel.transactions.observe(viewLifecycleOwner) { list ->
+            val currentTx = list.find { it.id == transactionId } ?: return@observe
+
+            // Set nominal uang
+            formatting = true
+            binding.etAmount.setText(CurrencyFormatter.format(currentTx.amount).replace("Rp", "").trim())
+            formatting = false
+
+            // Set deskripsi catatan
+            binding.etDescription.setText(currentTx.description)
+
+            // Set waktu tanggal lama
+            selectedDate = currentTx.date
+            binding.tvDate.text = DateUtils.formatDate(selectedDate)
+
+            // Set jenis dan kategori lama
+            selectedType = currentTx.type
+            binding.toggleType.check(if (selectedType == "INCOME") R.id.btnIncome else R.id.btnExpense)
+
+            val categoryList = if (selectedType == "INCOME") Category.incomeCategories() else Category.expenseCategories()
+            categoryAdapter.submitList(categoryList)
+
+            val savedCategory = Category.fromName(currentTx.category)
+            selectedCategory = savedCategory
+
+            binding.rvCategories.post {
+                val position = categoryList.indexOf(savedCategory)
+                if (position != -1) {
+                    categoryAdapter.notifyItemChanged(position)
+                }
+            }
+        }
+    }
+
     private fun save() {
         val amount = CurrencyFormatter.parseRupiah(binding.etAmount.text?.toString().orEmpty())
         if (amount <= 0) {
@@ -114,14 +158,25 @@ class AddTransactionFragment : Fragment() {
             return
         }
         binding.tilAmount.error = null
-        viewModel.addTransaction(amount, selectedType, selectedCategory.name, binding.etDescription.text?.toString()?.trim().orEmpty(), selectedDate)
+        val description = binding.etDescription.text?.toString()?.trim().orEmpty()
+
+        if (isEditMode) {
+            viewModel.updateTransaction(transactionId!!, amount, selectedType, selectedCategory.name, description, selectedDate)
+        } else {
+            viewModel.addTransaction(amount, selectedType, selectedCategory.name, description, selectedDate)
+        }
     }
 
     private fun observe() {
         viewModel.uiState.observe(viewLifecycleOwner) {
             when (it) {
                 Resource.Loading -> binding.btnSave.isEnabled = false
-                is Resource.Success -> { binding.btnSave.isEnabled = true; findNavController().popBackStack() }
+                is Resource.Success -> {
+                    binding.btnSave.isEnabled = true
+                    val msg = if (isEditMode) "Transaksi diperbarui" else "Transaksi disimpan"
+                    Snackbar.make(requireActivity().findViewById(android.R.id.content), msg, Snackbar.LENGTH_SHORT).show()
+                    findNavController().popBackStack()
+                }
                 is Resource.Error -> { binding.btnSave.isEnabled = true; Snackbar.make(binding.root, it.message, Snackbar.LENGTH_LONG).show() }
             }
         }

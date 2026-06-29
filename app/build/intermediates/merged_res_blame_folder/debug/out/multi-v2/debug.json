@@ -5555,13 +5555,13 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ASUS TUF GAMING\\Documents\\Kuliah\\semester 6\\Pemrogramman Bergerak\\New folder\\BudgetKuApp\\app\\src\\main\\res\\values\\colors.xml",
+                    "source": "C:\\Users\\ASUS TUF GAMING\\Documents\\Kuliah\\semester 6\\Pemrogramman Bergerak\\budgetku_kelompok1_c\\app\\src\\main\\res\\values\\colors.xml",
                     "from": {
                         "startLines": "3,11,6,4,5,9,1,2,7,8,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "108,472,240,149,193,378,16,58,286,328,423",
+                        "startOffsets": "111,483,246,153,198,387,17,60,293,336,433",
                         "endColumns": "40,41,45,43,46,44,41,49,41,49,48",
-                        "endOffsets": "144,509,281,188,235,418,53,103,323,373,467"
+                        "endOffsets": "147,520,287,192,240,427,54,105,330,381,477"
                     },
                     "to": {
                         "startLines": "640,714,717,720,723,963,964,973,980,981,986",
@@ -5588,23 +5588,6 @@
                         "endLines": "667,668,669,670,671,672,673,674,2028,2029,2030,2031,2032,2033,2034,2035,2037,2038,2039,2040,2041,2042,2043,2044,2045,11855,12894",
                         "endColumns": "89,79,89,89,79,80,79,79,104,180,124,106,179,122,115,102,187,104,180,124,174,147,62,61,78,20,20",
                         "endOffsets": "34530,34610,34700,34790,34870,34951,35031,35111,135049,135230,135355,135462,135642,135765,135881,135984,136339,136444,136625,136750,136925,137073,137136,137198,137277,739450,777759"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ASUS TUF GAMING\\Documents\\Kuliah\\semester 6\\Pemrogramman Bergerak\\New folder\\BudgetKuApp\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "55,137,241,350,470,573",
-                        "endColumns": "81,103,108,119,102,71",
-                        "endOffsets": "132,236,345,465,568,640"
-                    },
-                    "to": {
-                        "startLines": "2058,2059,2060,2061,2062,2179",
-                        "startColumns": "4,4,4,4,4,4",
-                        "startOffsets": "138250,138332,138436,138545,138665,155612",
-                        "endColumns": "81,103,108,119,102,71",
-                        "endOffsets": "138327,138431,138540,138660,138763,155679"
                     }
                 },
                 {
@@ -5703,25 +5686,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\ASUS TUF GAMING\\Documents\\Kuliah\\semester 6\\Pemrogramman Bergerak\\New folder\\BudgetKuApp\\app\\src\\main\\res\\values\\styles.xml",
-                    "from": {
-                        "startLines": "12,1,20",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "587,16,925",
-                        "endLines": "18,10,23",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "919,581,1108"
-                    },
-                    "to": {
-                        "startLines": "5907,6434,7249",
-                        "startColumns": "4,4,4",
-                        "startOffsets": "416025,451266,512739",
-                        "endLines": "5913,6443,7252",
-                        "endColumns": "12,12,12",
-                        "endOffsets": "416357,451831,512922"
-                    }
-                },
-                {
                     "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\caches\\transforms-3\\f638c8b0216b38a41893ab1d9c58cd67\\transformed\\customview-poolingcontainer-1.0.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -5773,6 +5737,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\ASUS TUF GAMING\\Documents\\Kuliah\\semester 6\\Pemrogramman Bergerak\\budgetku_kelompok1_c\\app\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "0",
+                        "startColumns": "11",
+                        "startOffsets": "11",
+                        "endColumns": "52",
+                        "endOffsets": "52"
+                    },
+                    "to": {
+                        "startLines": "2009",
+                        "startColumns": "4",
+                        "startOffsets": "132776",
+                        "endColumns": "45",
+                        "endOffsets": "132817"
+                    }
+                },
+                {
                     "source": "C:\\Users\\ASUS TUF GAMING\\.gradle\\caches\\transforms-3\\ebc703f079e9bea87fc572f22c4282e3\\transformed\\activity-1.8.0\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,3",
@@ -5787,6 +5768,42 @@
                         "startOffsets": "123464,125642",
                         "endColumns": "41,59",
                         "endOffsets": "123501,125697"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ASUS TUF GAMING\\Documents\\Kuliah\\semester 6\\Pemrogramman Bergerak\\budgetku_kelompok1_c\\app\\build\\generated\\res\\processDebugGoogleServices\\values\\values.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,137,241,350,470,573",
+                        "endColumns": "81,103,108,119,102,71",
+                        "endOffsets": "132,236,345,465,568,640"
+                    },
+                    "to": {
+                        "startLines": "2058,2059,2060,2061,2062,2179",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "138250,138332,138436,138545,138665,155612",
+                        "endColumns": "81,103,108,119,102,71",
+                        "endOffsets": "138327,138431,138540,138660,138763,155679"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ASUS TUF GAMING\\Documents\\Kuliah\\semester 6\\Pemrogramman Bergerak\\budgetku_kelompok1_c\\app\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "12,1,20",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "599,17,945",
+                        "endLines": "18,10,23",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "937,591,1131"
+                    },
+                    "to": {
+                        "startLines": "5907,6434,7249",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "416025,451266,512739",
+                        "endLines": "5913,6443,7252",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "416357,451831,512922"
                     }
                 },
                 {
@@ -5861,23 +5878,6 @@
                         "startOffsets": "125599",
                         "endColumns": "42",
                         "endOffsets": "125637"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\ASUS TUF GAMING\\Documents\\Kuliah\\semester 6\\Pemrogramman Bergerak\\New folder\\BudgetKuApp\\app\\src\\main\\res\\values\\strings.xml",
-                    "from": {
-                        "startLines": "0",
-                        "startColumns": "11",
-                        "startOffsets": "11",
-                        "endColumns": "52",
-                        "endOffsets": "52"
-                    },
-                    "to": {
-                        "startLines": "2009",
-                        "startColumns": "4",
-                        "startOffsets": "132776",
-                        "endColumns": "45",
-                        "endOffsets": "132817"
                     }
                 },
                 {

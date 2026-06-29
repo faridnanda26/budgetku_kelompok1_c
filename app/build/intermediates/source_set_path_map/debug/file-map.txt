@@ -52,11 +52,11 @@ com.budgetku.app-navigation-ui-2.7.7-50 C:\Users\ASUS TUF GAMING\.gradle\caches\
 com.budgetku.app-customview-poolingcontainer-1.0.0-51 C:\Users\ASUS TUF GAMING\.gradle\caches\transforms-3\f638c8b0216b38a41893ab1d9c58cd67\transformed\customview-poolingcontainer-1.0.0\res
 com.budgetku.app-core-ktx-1.12.0-52 C:\Users\ASUS TUF GAMING\.gradle\caches\transforms-3\f6d5dcc3c1e53eb732ec2601c4f63340\transformed\core-ktx-1.12.0\res
 com.budgetku.app-browser-1.4.0-53 C:\Users\ASUS TUF GAMING\.gradle\caches\transforms-3\fb7f4ca36b70d5d164dba53c14ae04b4\transformed\browser-1.4.0\res
-com.budgetku.app-pngs-54 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\BudgetKuApp\app\build\generated\res\pngs\debug
-com.budgetku.app-res-55 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\BudgetKuApp\app\build\generated\res\processDebugGoogleServices
-com.budgetku.app-resValues-56 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\BudgetKuApp\app\build\generated\res\resValues\debug
-com.budgetku.app-mergeDebugResources-57 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\BudgetKuApp\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
-com.budgetku.app-mergeDebugResources-58 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\BudgetKuApp\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
-com.budgetku.app-merged_res-59 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\BudgetKuApp\app\build\intermediates\merged_res\debug
-com.budgetku.app-debug-60 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\BudgetKuApp\app\src\debug\res
-com.budgetku.app-main-61 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\BudgetKuApp\app\src\main\res
+com.budgetku.app-pngs-54 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\budgetku_kelompok1_c\app\build\generated\res\pngs\debug
+com.budgetku.app-res-55 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\budgetku_kelompok1_c\app\build\generated\res\processDebugGoogleServices
+com.budgetku.app-resValues-56 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\budgetku_kelompok1_c\app\build\generated\res\resValues\debug
+com.budgetku.app-mergeDebugResources-57 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\budgetku_kelompok1_c\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+com.budgetku.app-mergeDebugResources-58 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\budgetku_kelompok1_c\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+com.budgetku.app-merged_res-59 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\budgetku_kelompok1_c\app\build\intermediates\merged_res\debug
+com.budgetku.app-debug-60 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\budgetku_kelompok1_c\app\src\debug\res
+com.budgetku.app-main-61 C:\Users\ASUS TUF GAMING\Documents\Kuliah\semester 6\Pemrogramman Bergerak\budgetku_kelompok1_c\app\src\main\res

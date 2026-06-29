@@ -10,11 +10,14 @@ import androidx.navigation.NavOptions
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.budgetku.app.BudgetKuApplication
 import com.budgetku.app.R
+import com.budgetku.app.data.local.entity.TransactionEntity
 import com.budgetku.app.databinding.FragmentDashboardBinding
 import com.budgetku.app.ui.budget.adapter.BudgetAdapter
 import com.budgetku.app.ui.transaction.adapter.TransactionAdapter
 import com.budgetku.app.util.CurrencyFormatter
 import com.budgetku.app.viewmodel.*
+import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import com.google.android.material.snackbar.Snackbar
 
 class DashboardFragment : Fragment() {
     private var _binding: FragmentDashboardBinding? = null
@@ -41,35 +44,49 @@ class DashboardFragment : Fragment() {
     }
 
     private fun setupRecycler() {
-        transactionAdapter = TransactionAdapter { transactionViewModel.deleteTransaction(it) }
+        transactionAdapter = TransactionAdapter(
+            onClick = { transaction ->
+                val bundle = Bundle().apply {
+                    putString("TRANSACTION_ID", transaction.id)
+                    putBoolean("IS_INCOME", transaction.type == "INCOME")
+                }
+                val navOptions = NavOptions.Builder()
+                    .setPopUpTo(R.id.dashboardFragment, false)
+                    .setLaunchSingleTop(true)
+                    .build()
+                findNavController().navigate(R.id.addTransactionFragment, bundle, navOptions)
+            },
+            onLongClick = { transaction ->
+                showDeleteConfirmationDialog(transaction)
+            }
+        )
+
         budgetAdapter = BudgetAdapter { budgetViewModel.deleteBudget(it.budget) }
+
         binding.rvRecentTransactions.layoutManager = LinearLayoutManager(requireContext())
         binding.rvRecentTransactions.adapter = transactionAdapter
         binding.rvRecentTransactions.isNestedScrollingEnabled = false
+
         binding.rvBudgets.layoutManager = LinearLayoutManager(requireContext(), LinearLayoutManager.HORIZONTAL, false)
         binding.rvBudgets.adapter = budgetAdapter
     }
 
     private fun setupClicks() {
-        // 🟢 PERBAIKAN UTAMA: Hancurkan tumpukan di atas dashboard secara inklusif agar state tidak terkunci
         val navOptions = NavOptions.Builder()
-            .setPopUpTo(R.id.dashboardFragment, false) // ← ini saja yang diubah, true → false
+            .setPopUpTo(R.id.dashboardFragment, false)
             .setLaunchSingleTop(true)
             .build()
 
-        // Klik Pemasukan
         binding.btnAddIncome.setOnClickListener {
             val bundle = Bundle().apply { putBoolean("IS_INCOME", true) }
             findNavController().navigate(R.id.addTransactionFragment, bundle, navOptions)
         }
 
-        // Klik Pengeluaran
         binding.btnAddExpense.setOnClickListener {
             val bundle = Bundle().apply { putBoolean("IS_INCOME", false) }
             findNavController().navigate(R.id.addTransactionFragment, bundle, navOptions)
         }
 
-        // Klik Lihat Semua (Riwayat)
         binding.tvSeeAll.setOnClickListener {
             findNavController().navigate(R.id.transactionHistoryFragment, null, navOptions)
         }
@@ -98,6 +115,21 @@ class DashboardFragment : Fragment() {
             budgetAdapter.submitList(it)
             binding.tvEmptyBudget.visibility = if (it.isEmpty()) View.VISIBLE else View.GONE
         }
+    }
+
+    private fun showDeleteConfirmationDialog(transaction: TransactionEntity) {
+        MaterialAlertDialogBuilder(requireContext())
+            .setTitle("Hapus Transaksi")
+            .setMessage("Apakah Anda yakin ingin menghapus transaksi ini? Tindakan ini tidak dapat dibatalkan.")
+            .setNegativeButton("Batal") { dialog, _ ->
+                dialog.dismiss()
+            }
+            .setPositiveButton("Hapus") { dialog, _ ->
+                transactionViewModel.deleteTransaction(transaction)
+                Snackbar.make(binding.root, "Transaksi berhasil dihapus", Snackbar.LENGTH_SHORT).show()
+                dialog.dismiss()
+            }
+            .show()
     }
 
     override fun onResume() {
